@@ -1,11 +1,11 @@
 # Site settings
-author: astronomical-form-6016
-title: 
+author: Carlton Grandison
+title: Coming into my own
 header-img: img/home-bg.png
 email: carltondgrandison@gmail.com
-copyright_name: astronomical-form-6016
+copyright_name: Carlton Grandison
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Coding
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  cgrandi1
