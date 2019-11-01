@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "formatted like this"
+title:      "API Project"
 date:       2019-11-01 00:49:43 -0400
 permalink:  formatted_like_this
 ---
@@ -21,8 +21,7 @@ permalink:  formatted_like_this
       $("#productResult").append(`<p> Good job, you created ${data.name}!</p>`)
     });
   });
-});
-```
+});```
 
 ``` def create
     @league = League.create(league_params)
