@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      " Please see Medium Blog"
-date:       2020-01-17 17:59:19 +0000
+date:       2020-01-17 12:59:20 -0500
 permalink:  please_see_medium_blog
 ---
 
