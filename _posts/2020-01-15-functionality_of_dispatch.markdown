@@ -5,6 +5,8 @@ date:       2020-01-15 22:01:51 -0500
 permalink:  functionality_of_dispatch
 ---
 
+
+
 PLEASE REFER TO BLOG: https://medium.com/@carltondgrandison/functionality-of-dispatch-ae1d1840ea11
 
 To begin, dispatch is a product of the Redux store. The Redux store is created using thunk and middleware that lets you return a function instead of an action object. From there, you are able to call upon that action in the store to create synchronous actions. In the example below, is an example of how to create a thunk and middleware in the Redux store:
