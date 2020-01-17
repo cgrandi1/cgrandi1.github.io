@@ -10,7 +10,7 @@ To begin, dispatch is a product of the Redux store. The Redux store is created u
 
 `import { createStore, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import rootReducer from './reducers/rootReducer'
+import rootReducer from './reducers/rootReducer
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
@@ -19,7 +19,7 @@ const store = createStore(
   composeEnhancer(applyMiddleware(thunk)),
 );
 
-export default store;`
+export default store`
 
 Once the store is created, we then have the ability to use it in our app with `Provider` from React-Redux. Provider gives us the abiity to access the store from our App. 
 
