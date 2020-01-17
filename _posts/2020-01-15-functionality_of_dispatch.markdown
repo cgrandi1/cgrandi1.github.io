@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      " Functionality of dispatch"
-date:       2020-01-16 03:01:50 +0000
+date:       2020-01-15 22:01:51 -0500
 permalink:  functionality_of_dispatch
 ---
 
@@ -42,7 +42,7 @@ Dispatch simply allows us to execute an Action in the store in order change the 
        isClicked: !this.state.isClicked```
 			 `
       `export default connect(null, { editRecipe, fetchRecipe })(RecipeEdit)`
-			`
+			
 			
 			 I am able to access the properties in my Actions component that executes the dispatch, by using connect. In order to do so remember to specify the second argument in `connect()`. In the above example, I am using`mapDispatchToProps` in the second argument `connect(null, { editRecipe, fetchRecipe }` to pass the properties. 
 			 
